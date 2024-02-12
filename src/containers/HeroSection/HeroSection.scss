@@ -1,0 +1,51 @@
+.HeroSection {
+    margin-bottom: 100px;
+    overflow: hidden;
+
+    &:after {
+        content: url("../../assets/images/headerBg.png");
+        position: absolute;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        height: 100%;
+        width: 50%;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+    &-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-left {
+        width: 45%;
+    }
+
+    &-right {
+        width: 50%;
+    }
+
+    &-title {
+        font-size: 76px;
+        line-height: 100px;
+
+        .titleBlue {
+            color: #4475F2;
+            border-bottom: 4px solid #4475F2;
+        }
+    }
+
+    &-text {
+        width: 75%;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        margin: 25px 0;
+        color: #5E6282;
+    }
+}

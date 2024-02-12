@@ -1,0 +1,52 @@
+.Forums {
+    margin-bottom: 150px;
+    
+    .mainTitle {
+        margin-bottom: 30px;
+    }
+
+    &-cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    &-cardDescription {
+        // width: 30%;
+        padding-right: 250px;
+    }
+
+    &-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+        img {
+            border-radius: 15px;
+            width: 50%;
+            margin-right: 130px;
+        }
+
+        &-title {
+            font-size: 32px;
+            margin-bottom: 30px;
+             
+            .textBlue {
+                color: #4475F2;
+            }
+        }
+
+        &-text {
+            color: #5E6282;
+            margin-bottom: 20px;
+        }
+
+        &:last-child {
+            img {
+                order: 1;
+            }
+        }
+    }
+}

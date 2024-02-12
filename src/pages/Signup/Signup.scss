@@ -1,0 +1,80 @@
+.Signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30% !important;
+    height: 500px;
+    box-shadow: -5px 10px 10px 4px rgba(34, 60, 80, 0.3);
+    border: 1px solid #e3e4e5;
+    border-radius: 5px;
+    padding: 25px;
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto !important;
+
+    &-title {
+        color: #000;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 35px;
+        letter-spacing: 1.92px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+
+    input {
+        width: 90%;
+        display: block;
+        color: #000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 35px;
+        letter-spacing: 1.12px;
+        border: 1px solid #e3e4e5;
+        margin-bottom: 20px;
+        padding: 10px 10px 10px 25px;
+        background: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+
+    .btn-submit {
+        display: block;
+        text-align: center;
+        width: 93%;
+        color: #fff;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 1.28px;
+        border-radius: 5px;
+        background: rgb(35, 49, 116);
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    span {
+        color: #000;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 1.28px;
+
+        a {
+            color: #1f485b;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px;
+            letter-spacing: 1.28px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.GiftCard {
+    
+    &-inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 150px;
+
+        img {
+            width: 600px;
+        }
+    }
+
+    &-title {
+        width: 30%;
+        font-size: 30px;
+        margin-right: 50px;
+    }
+}

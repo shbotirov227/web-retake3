@@ -1,0 +1,17 @@
+.About {
+    
+    &-inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    &-text {
+        width: 90%;
+        line-height: 45px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin-bottom: 100px;
+    }
+}
